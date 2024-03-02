@@ -8,6 +8,9 @@
     "nextjs.json",
     "react-library.json"
   ],
+  "scripts": {
+    "clean": "rm -rf node_modules .next dist"
+  },
   "publishConfig": {
     "access": "public"
   }

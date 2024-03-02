@@ -6,7 +6,8 @@
     "./*/*": "./src/*/*.tsx"
   },
   "scripts": {
-    "lint": "eslint . --max-warnings 0"
+    "lint": "eslint . --max-warnings 0",
+    "clean": "rm -rf node_modules .next dist"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",

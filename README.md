@@ -31,6 +31,7 @@ To build all apps and packages, run the following command:
 
 ```
 cd turborepo-starter-with-tailwind
+pnpm i
 pnpm build
 ```
 
@@ -40,6 +41,7 @@ To develop all apps and packages, run the following command:
 
 ```
 cd turborepo-starter-with-tailwind
+pnpm i
 pnpm dev
 ```
 
