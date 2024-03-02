@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./tailwind.config": "./tailwind.config.ts",
-    "./postcss.config": "./postcss.config.js"
+    "./tailwind": "./tailwind.config.ts",
+    "./postcss": "./postcss.config.js"
   },
   "scripts": {
     "clean": "rm -rf node_modules .next dist"
