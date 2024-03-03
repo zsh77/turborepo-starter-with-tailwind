@@ -29,9 +29,10 @@ This Turborepo has some additional tools already setup for you:
 
 To build all apps and packages, run the following command:
 
+(If it's for the first time don't forget to run `pnpm i`)
+
 ```
 cd turborepo-starter-with-tailwind
-pnpm i
 pnpm build
 ```
 
@@ -39,19 +40,27 @@ pnpm build
 
 To develop all apps and packages, run the following command:
 
+(If it's for the first time don't forget to run `pnpm i`)
+
 ```
 cd turborepo-starter-with-tailwind
-pnpm i
 pnpm dev
 ```
 
-## Useful Links
+## How to run it with npm?
 
-Learn more about the power of Turborepo:
+Follow these steps:
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+1. remove `pnpm-lock.yaml` and `pnpm-workspace.yaml` from root.
+2. add this to the root package.json :
+
+```
+"workspaces": [
+  "apps/*",
+  "packages/*"
+]
+```
+
+3. while you're in the root package.json, change `packageManager`'s value to `npm@your_npm_version`. You can get your npm version by running `npm -v`.
+4. replace every `workspace:*` in each package.json with `*`.
+5. now run `npm i` to install your dependencies and it's done!
