@@ -13,8 +13,9 @@ This Turborepo includes the following packages/apps:
 - `@repo/utils`: a typescript library shared by the `web` application and `ui` package
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `@repo/tailwind-config`: unified configs of `tailwind.config.ts` and `postcss.config.js`
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+Attention: In the project I've used `config-typescript`, `config-eslint` and `config-tailwind` as directory names of respectively `@repo/typescript-config`, `@repo/eslint-config` and `@repo/tailwind-config` packages. The naming of directories are done this way to start with `config` so that editors place them next to each other and having a better developer experience while looking for config packages and no other reasons!
 
 ### Utilities
 
