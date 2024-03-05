@@ -11,9 +11,6 @@ importers:
       '@repo/eslint-config':
         specifier: workspace:*
         version: link:packages/config-eslint
-      '@repo/typescript-config':
-        specifier: workspace:*
-        version: link:packages/config-typescript
       prettier:
         specifier: ^3.1.1
         version: 3.2.5
