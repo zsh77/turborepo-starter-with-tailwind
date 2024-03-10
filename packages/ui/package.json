@@ -13,12 +13,12 @@
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@repo/utils": "workspace:*",
-    "@types/node": "^20.10.6",
-    "@types/eslint": "^8.56.1",
-    "@types/react": "^18.2.46",
-    "@types/react-dom": "^18.2.18",
-    "eslint": "^8.56.0",
+    "@types/eslint": "^8.56.5",
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "eslint": "^8.57.0",
     "react": "^18.2.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   }
 }
