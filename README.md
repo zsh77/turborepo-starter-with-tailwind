@@ -15,7 +15,13 @@ This Turborepo includes the following packages/apps:
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 - `@repo/tailwind-config`: unified configs of `tailwind.config.ts` and `postcss.config.js`
 
-Attention: In the project I've used `config-typescript`, `config-eslint` and `config-tailwind` as directory names of respectively `@repo/typescript-config`, `@repo/eslint-config` and `@repo/tailwind-config` packages. The naming of directories are done this way to start with `config` so that editors place them next to each other and having a better developer experience while looking for config packages and no other reasons!
+Attention: In the project I've used:
+
+- `config-typescript` as directory name for `@repo/typescript-config` package
+- `config-eslint` as directory name for `@repo/eslint-config` package
+- `config-tailwind` as directory name for `@repo/tailwind-config` package
+
+The naming of directories are done this way to start with `config-` so that editors put them next to each other and having a better developer experience while looking for config packages and no other reasons!
 
 ### Utilities
 
